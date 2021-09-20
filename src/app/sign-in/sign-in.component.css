@@ -1,0 +1,86 @@
+.btn1 {
+    display:block;
+    height: 30px;
+    width: 100px;
+    border-radius: 40%;
+    border: 1px solid white;
+    
+  }
+  .linearGradient{
+    font-size:2rem;
+    padding: 1em 2em;
+    margin: 1em;
+    display: inline-block;
+    border-radius: 4em;
+    border:  solid transparent;
+    background: linear-gradient(0deg,#ff6064, #ff9867), linear-gradient(0deg,#ff6064, #ff9867);
+    color: #ff6064;
+    background-clip:  border-box, text;
+    background-position: center center;
+    box-shadow:inset 0 0 0 100px white;
+    background-size:  110% 110%;
+  }
+  .whiteText{
+      color:white;
+  }
+  .inputBox{
+      background-color: blueviolet;
+  }
+
+  .backColor{
+    background-color: #4A55C1;
+
+  }
+  .pinkish{
+    background-color: #F96180;
+  }
+  .btn-default1{
+    font-family: Raleway-SemiBold;
+    font-size: 16px;
+    height: 30px;
+    width: 250px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 0px solid rgba(108, 89, 179, 0.75);
+    border-radius: 40px;
+    background: #F96180;
+    /* transparent; */
+    transition: all 0.3s ease 0s;
+  }
+  .btn-default2{
+    font-family: Raleway-SemiBold;
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 15px;
+    /* border: 0px solid;
+    border-radius: 60px; */
+    background: transparent;
+    /* transparent; */
+     /* transition: all 0.3s ease 0s;  */
+    /* border-color:white; */
+    }
+    #input_container {
+      position:relative;
+      padding:0 0 0 20px;
+      margin:0 20px;
+      background:#ddd;
+      direction: rtl;
+      width: 200px;
+  }
+  #input {
+      height:20px;
+      margin:0;
+      padding-right: 30px;
+      width: 100%;
+  }
+  #input_img {
+      position:absolute;
+      bottom:2px;
+      right:5px;
+      width:24px;
+      height:24px;
+  }
